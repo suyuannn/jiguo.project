@@ -1,0 +1,324 @@
+.content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+
+    /* 标题 */
+    p {
+        font-size: 36px;
+    }
+
+    /* table1 */
+    .tableBox1 {
+        width: 100%;
+
+        .tableBoxTitle {
+            width: 320px;
+            margin: 25px auto 0px;
+
+            .tableT1 {
+                float: left;
+                width: 160px;
+                height: 43px;
+                line-height: 43px;
+                font-size: 18px;
+                font-weight: 500;
+                text-align: center;
+                color: #a3a3a3;
+                cursor: pointer;
+            }
+
+            .tableT1_active {
+                font-weight: normal;
+                color: #ff5036;
+                border-bottom: 3px solid #ff5036;
+            }
+        }
+    }
+
+    /* table2 */
+    .tableBox2 {
+        width: 100%;
+        border-top: 1px solid #f0f0f0;
+
+        ul {
+            width: 640px;
+            margin: 0px auto 0px;
+            font-size: 18px;
+            color: #a3a3a3;
+
+
+            li {
+                float: left;
+                width: 160px;
+                height: 43px;
+                line-height: 43px;
+                font-weight: 500;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .liActive {
+                color: #474747;
+                font-weight: normal;
+            }
+        }
+    }
+
+    /* table3 */
+    .tableBox3 {
+        width: 100%;
+        background: #f7f7f7;
+
+
+        >li {
+            display: none;
+
+            /* 公共ul */
+            ul {
+                width: 1000px;
+                margin: 0 auto;
+
+                li {
+                    width: 222px;
+                    background: #fff;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    float: left;
+                    margin-top: 25px;
+                    margin-right: 35px;
+
+                    &:nth-child(4n) {
+                        margin-right: 0px;
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    &:hover .tableBox3pic>.a11 {
+                        animation: move .7s ease infinite alternate;
+                        display: block;
+                    }
+
+                    @keyframes move {
+                        0% {
+                            opacity: 0;
+                        }
+
+                        100% {
+                            opacity: 1;
+                        }
+                    }
+
+                    .tableBox3pic {
+                        position: relative;
+
+                        .a11 {
+                            display: none;
+                            position: absolute;
+                            top: 0;
+                            left: 1px;
+                            width: 220px;
+                            height: 130px;
+                            background-color: rgba(247, 247, 247, .3);
+                        }
+
+                        span {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            display: block;
+                            padding: 2px 8px;
+                            font-size: 12px;
+                            color: #fff;
+                            background: #ff5544;
+                            border-top-right-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                        }
+
+                        .spanActive {
+                            background: #fbf4cb;
+                            color: #c4a96a;
+                        }
+
+                        a {
+                            display: inline-block;
+                            width: 220px;
+                            height: 130px;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+
+                    .tableBox3Title {
+                        width: 200px;
+                        margin: 5px auto 10px;
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: bold;
+                        /* 文本不会换行，在同一行继续 */
+                        white-space: nowrap;
+                        /* 溢出隐藏 */
+                        overflow: hidden;
+                        /* 用省略号来代表被修剪的文本 */
+                        text-overflow: ellipsis;
+                    }
+
+                    .btnBox {
+                        margin: 0 auto;
+                        width: 135px;
+
+                        .btnBox1 {
+                            display: inline-block;
+                            width: 50px;
+                            height: 23px;
+                            line-height: 23px;
+                            text-align: center;
+                            font-size: 12px;
+                            color: #a3a3a3;
+                            border: 1px solid #c9c9c9;
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .apply {
+                        font-size: 14px;
+                        color: #fe5341;
+                        text-align: center;
+                    }
+
+                    .reportNum {
+                        font-size: 14px;
+                        margin-bottom: 12px;
+
+                        .reportNum1 {
+                            margin-left: -27px;
+                            color: #a3a3a3;
+                        }
+
+                        span {
+                            color: #867a7a;
+                        }
+                    }
+                }
+            }
+
+            /* 申请中 */
+            .appling {
+
+                li {
+                    .btnBox {
+                        .btnBox1 {
+                            border: 1px solid #fe5341;
+                            color: #fe5341
+                        }
+                    }
+
+                    .reportNum {
+                        a {
+                            color: #fe5341;
+                        }
+
+                        span {
+                            color: #202020;
+                        }
+                    }
+                }
+            }
+
+            /* 试用中 */
+            .trialing {
+
+                li {
+                    .btnBox {
+                        .btnBox1 {
+                            border: 1px solid #80c269;
+                            color: #80c269
+                        }
+                    }
+
+                    .reportNum {
+                        a {
+                            color: #80c269;
+                        }
+
+                        span {
+                            color: #202020;
+                        }
+                    }
+                }
+            }
+
+            /* 已结束 */
+            .finishing {
+
+                li {
+                    .tableBox3pic {
+                        span {
+                            background: #fbf4cb;
+                            color: #c4a96a;
+                        }
+                    }
+
+                    .btnBox {
+                        .btnBox1 {
+                            border: 1px solid #c52aec;
+                            color: #c52aec
+                        }
+                    }
+
+                    .apply {
+                        color: #c52aec;
+                    }
+
+                    .reportNum {
+                        a {
+                            color: #c52aec;
+                        }
+
+                        span {
+                            color: #202020;
+                        }
+                    }
+                }
+            }
+        }
+
+        .tableliActive {
+            display: block;
+        }
+    }
+
+    /* 向下加载更多 */
+    .loadmore {
+        width: 100%;
+        background: #f7f7f7;
+        overflow: hidden;
+
+        a {
+            margin: 40px auto;
+            display: block;
+            width: 150px;
+            padding-left: 29px;
+            font-size: 16px;
+            background: url(../images/more.png) no-repeat 8px 10px;
+            box-sizing: border-box;
+
+            &:hover {
+                cursor: pointer;
+                color: #fe5341;
+            }
+        }
+
+        .ld {
+            background: url(../images/loading-icon.gif) no-repeat 8px 4px;
+        }
+    }
+}
