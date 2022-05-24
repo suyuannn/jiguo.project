@@ -3,16 +3,17 @@
   /* 试用流程选项卡 */
   /* 热门试用 */
 }
-.content section {
+.content .section {
   width: 100%;
+  height: 90px;
   background: #f0f0f0;
 }
-.content section ul {
+.content .section ul {
   width: 1000px;
   margin: 0 auto;
   height: 100px;
 }
-.content section ul li {
+.content .section ul li {
   float: left;
   width: 180px;
   height: 60px;
@@ -20,45 +21,45 @@
   margin-top: 17px;
   text-align: center;
 }
-.content section ul li::before {
+.content .section ul li::before {
   display: block;
   background: url(../images/use1.png) no-repeat center top;
   content: '';
   width: 100%;
   height: 43px;
 }
-.content section ul li:first-of-type {
+.content .section ul li:first-of-type {
   width: 62px;
 }
-.content section ul li:first-of-type::before {
+.content .section ul li:first-of-type::before {
   height: 0;
   background: none;
 }
-.content section ul li:nth-of-type(3)::before {
+.content .section ul li:nth-of-type(3)::before {
   background: url(../images/use2.png) no-repeat center top;
 }
-.content section ul li:nth-of-type(4)::before {
+.content .section ul li:nth-of-type(4)::before {
   background: url(../images/use3.png) no-repeat center top;
 }
-.content section ul li:nth-of-type(5)::before {
+.content .section ul li:nth-of-type(5)::before {
   background: url(../images/use4.png) no-repeat center top;
 }
-.content section ul li:nth-of-type(6)::before {
+.content .section ul li:nth-of-type(6)::before {
   background: url(../images/use5.png) no-repeat center top;
 }
-.content section ul li:hover {
+.content .section ul li:hover {
   cursor: pointer;
 }
-.content section ul li:hover > a {
+.content .section ul li:hover > a {
   border-bottom: 2px solid #FE5341;
 }
-.content section ul li .largeFont {
+.content .section ul li .largeFont {
   line-height: 27px;
   width: 54px;
   font-size: 20px;
   margin-left: 10px;
 }
-.content section ul li a {
+.content .section ul li a {
   display: block;
   line-height: normal;
   margin: 0 auto;
@@ -67,10 +68,10 @@
   line-height: 20px;
   font-size: 12px;
 }
-.content section ul li .smallFont {
+.content .section ul li .smallFont {
   border-bottom: 2px solid #FE5341;
 }
-.content section .all {
+.content .section .all {
   border-left: 8px solid #FE5341;
 }
 .content .con {
