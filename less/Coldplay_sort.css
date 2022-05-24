@@ -37,7 +37,7 @@
 .h1 {
   width: 1000px;
   height: 173px;
-  margin: 0 auto;
+  margin: 80px auto 0px;
 }
 .h1 > h1 {
   text-align: center;
@@ -64,6 +64,7 @@
   width: 100%;
   background-color: #f7f7f7;
   overflow: hidden;
+  padding-bottom: 65px;
 }
 .back .type_area {
   width: 1000px;
