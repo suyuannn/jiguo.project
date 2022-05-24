@@ -8,11 +8,6 @@ bu.ondblclick = function() {
     input_.className = ""
 }
 
-
-
-
-
-
 // 倒计时
 function fu() {
     var nt = new Date();

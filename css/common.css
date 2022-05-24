@@ -224,6 +224,10 @@ ol {
     margin-right: 35px;
 }
 
+.mr45 {
+    margin-right: 45px;
+}
+
 .mr155 {
     margin-right: 155px;
 }
@@ -240,6 +244,10 @@ ol {
     margin-left: 10px;
 }
 
+.ml15 {
+    margin-left: 15px;
+}
+
 .ml20 {
     margin-left: 20px;
 }
@@ -254,6 +262,14 @@ ol {
 
 .ml90 {
     margin-left: 90px;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.pt20 {
+    padding-top: 20px;
 }
 
 .pb15 {

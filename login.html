@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <!-- 内容 -->
+    <div class="content">
+        <div class="con mt20">
+            <p class="mt20">登录极果</p>
+            <form action="index.html">
+                <div class="userNameBox clearfix">
+                    <label for="userName" class="userClass"></label>
+                    <input type="text" name="userName" placeholder="邮箱/手机/用户名" class="userName fl" id="userName"
+                        required
+                        pattern="[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}|^1[3578]\d{9}$|^[\u4e00-\u9fa5]{2,4}$">
+                    <p class="title title4 fl ml15">
+                        <i></i>
+                        <span>6-12 个字符，推荐使用中文会员名</span>
+                    </p>
+                </div>
+                <div class="pwdBox clearfix">
+                    <label for="pwd" class="pwdClass"></label>
+                    <input type="text" name="pwd" placeholder="密码" class="pwd fl" id="pwd" required
+                        pattern="^\w{6,10}$">
+                    <p class="title title5 fl ml15">
+                        <i></i>
+                        <span>请输入密码长度在6-12 个字符</span>
+                    </p>
+                </div>
+                <div class="auto_login clearfix mt10">
+                    <input type="checkbox" id="auto_login" class="mt3 mr10 ml5 fl">
+                    <label for="auto_login" class="fl">自动登录</label>
+                    <a href="#" class="forget_pwd fr">忘记密码</a>
+                </div>
+                <button id="btn1">立即登录</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/login.js"></script>
