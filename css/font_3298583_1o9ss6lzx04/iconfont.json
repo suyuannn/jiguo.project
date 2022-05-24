@@ -1,0 +1,58 @@
+{
+  "id": "3298583",
+  "name": "项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "902050",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "2076195",
+      "name": "赞2",
+      "font_class": "zan",
+      "unicode": "e870",
+      "unicode_decimal": 59504
+    },
+    {
+      "icon_id": "5387555",
+      "name": "新增导航列表",
+      "font_class": "xinzengdaohangliebiao",
+      "unicode": "eaff",
+      "unicode_decimal": 60159
+    },
+    {
+      "icon_id": "5831711",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "9550459",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "14719159",
+      "name": "旗子 旗  旗帜  指标",
+      "font_class": "qiziqiqizhizhibiao",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "27105292",
+      "name": "电池",
+      "font_class": "dianchi",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}

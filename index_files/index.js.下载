@@ -1,0 +1,31 @@
+// 放大镜效果
+var bu = document.getElementsByClassName('iconfont')[0];
+var input_ = document.getElementById('input1');
+bu.onclick = function() {
+    input_.className = "onkik"
+}
+bu.ondblclick = function() {
+    input_.className = ""
+}
+
+
+
+
+
+
+// 倒计时
+function fu() {
+    var nt = new Date();
+    var t_ = new Date(2022, 5, 1, );
+    var go_ = t_ - nt;
+    var day = Math.floor(go_ / 1000 / 60 / 60 / 24);
+    var h = Math.floor(go_ / 1000 / 60 / 60 % 24);
+    var m = Math.floor(go_ / 1000 / 60 % 60);
+    var s = Math.floor(go_ / 1000 % 60);
+    document.getElementById('time').innerHTML = ('申请时间剩余：' + day + '天' + h + '时' + m + '分' + s + '秒');
+    if (day < 0 && h < 0 && m < 0 && s < 0) {
+        clearInterval(fu);
+        document.getElementById('time').innerHTML = ('到此为止')
+    }
+}
+setInterval(fu, 1000)

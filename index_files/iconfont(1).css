@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3286093 */
+  src: url('iconfont.woff2?t=1653220193739') format('woff2'),
+       url('iconfont.woff?t=1653220193739') format('woff'),
+       url('iconfont.ttf?t=1653220193739') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_xihuan_mian:before {
+  content: "\e612";
+}
+
+.icon-zan_o:before {
+  content: "\ebaf";
+}
+
+.icon-shezhi:before {
+  content: "\e600";
+}
+
+.icon-tuitetwitter43:before {
+  content: "\e707";
+}
+
+.icon-fangzi:before {
+  content: "\e8ff";
+}
+
+.icon-24gl-telephone2:before {
+  content: "\e953";
+}
+
+.icon-wifi:before {
+  content: "\e8c4";
+}
+
