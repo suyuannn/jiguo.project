@@ -1,0 +1,58 @@
+{
+  "id": "3286093",
+  "name": "作业",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6032465",
+      "name": "icon_xihuan_mian",
+      "font_class": "icon_xihuan_mian",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "5387998",
+      "name": "赞_o",
+      "font_class": "zan_o",
+      "unicode": "ebaf",
+      "unicode_decimal": 60335
+    },
+    {
+      "icon_id": "162882",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "634580",
+      "name": "推特_twitter43",
+      "font_class": "tuitetwitter43",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "4055804",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e8ff",
+      "unicode_decimal": 59647
+    },
+    {
+      "icon_id": "7567777",
+      "name": "24gl-telephone2",
+      "font_class": "24gl-telephone2",
+      "unicode": "e953",
+      "unicode_decimal": 59731
+    },
+    {
+      "icon_id": "7735809",
+      "name": "wifi",
+      "font_class": "wifi",
+      "unicode": "e8c4",
+      "unicode_decimal": 59588
+    }
+  ]
+}

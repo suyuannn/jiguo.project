@@ -1,0 +1,917 @@
+@w: 65%;
+@ma: 0 auto;
+
+body {
+    width: 1600px;
+}
+
+.fl {
+    float: left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 1600px;
+
+    div {
+        width: @w;
+        height: 60px;
+        overflow: hidden;
+        margin: 15px 0 0 300px;
+    }
+
+    width:100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background-color: white;
+
+    img {
+        width: 130px;
+        height: 52px;
+        margin: 0px 55px 10px 0px;
+        .fl;
+    }
+
+    ul {
+        overflow: hidden;
+        position: relative;
+
+
+
+        li {
+            margin: 20px 55px 0px 0px;
+
+            .fl;
+
+            input {
+                width: 0px;
+                height: 25px;
+                border: none;
+                transition: all .4s ease;
+            }
+
+
+
+            a {
+                color: black;
+                font-size: 20px;
+                transition: all .2s ease;
+            }
+
+            a:hover {
+                color: rgb(179, 1, 1);
+            }
+
+            .list1 {
+                color: rgb(168, 0, 0);
+            }
+
+            // 放大镜
+            .iconfont {
+                font-size: 28px;
+                transition: all .15s ease;
+                transform-origin: center;
+                border: none;
+                background-color: white;
+                color: rgb(91, 89, 89);
+            }
+
+            .iconfont:hover {
+                font-size: 32px;
+            }
+
+            // 按钮
+            .clicks {
+                border: 1px solid rgb(255, 68, 0);
+                background-color: white;
+                border-radius: 2px;
+                width: 50px;
+                height: 30px;
+
+                transition: all .3s ease;
+
+                a {
+                    color: rgb(255, 68, 0);
+                    font-size: 14px;
+                }
+            }
+
+            .clicks:hover {
+                background-color: rgb(255, 68, 0);
+
+            }
+
+            .clicks:hover a {
+                color: white;
+            }
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .fr1 {
+            margin-top: 18px;
+        }
+
+        .fr2 {
+            margin-right: 17px;
+            margin-top: 19px;
+        }
+
+        .fr3 {
+            margin-right: 0px;
+            margin-top: 14px;
+            position: absolute;
+            top: 1px;
+            right: 155px;
+        }
+    }
+}
+
+// 搜索框点击样式
+.onkik {
+    margin-top: 6px;
+    width: 180px;
+    border-radius: 50px;
+    text-indent: 5px;
+    border: 1px solid rgb(155, 152, 152);
+}
+
+// 导播图
+section {
+    width: 100%;
+    height: 300px;
+    background: url(../images/original.jpg) no-repeat -180px 0px;
+    position: relative;
+    margin-top: 80px;
+
+    .wrap {
+        position: absolute;
+        animation: animation .5s linear alternate forwards;
+
+        h1 {
+            color: white;
+            font-size: 34px;
+            font-weight: 400;
+        }
+
+        .label {
+            margin: 20px 0px;
+            margin-left: 85px;
+
+            span {
+                background-color: rgba(255, 255, 255, 0.33);
+                padding: 8px;
+                color: white;
+                transition: all .15s ease;
+            }
+
+            span:hover {
+                background-color: rgba(114, 114, 114, 0.5);
+            }
+        }
+
+        #time {
+            color: white;
+            margin: 20px 0px;
+            margin-left: 70px;
+        }
+
+        .btn {
+            width: 245px;
+            height: 50px;
+            background-color: rgb(255, 94, 0);
+            text-align: center;
+            line-height: 50px;
+            margin-left: 70px;
+            transition: all .15s ease;
+
+            a {
+                color: white;
+                font-size: 28px;
+
+            }
+        }
+
+        .btn:hover {
+            background-color: rgb(197, 0, 0);
+        }
+
+    }
+}
+
+// 动画
+@keyframes animation {
+    0% {
+        opacity: 0;
+        right: -100px;
+        top: -200px;
+    }
+
+    100% {
+        opacity: 1;
+        right: 330px;
+        top: 50px;
+    }
+}
+
+body {
+    #biaoti {
+        text-indent: 15px;
+        margin: 10px 288px;
+    }
+}
+
+// 轮播图
+.lunbotu {
+    width: @w;
+    margin: @ma;
+
+    .swiper {
+        .swiper-slide {
+            width: 1000px;
+            height: 290px;
+            position: relative;
+            margin-left: 11px;
+
+            a {
+                color: black;
+            }
+
+            .b2 {
+                left: 252px;
+            }
+
+            .b3 {
+                left: 504px;
+            }
+
+            .b4 {
+                left: 756px;
+            }
+
+            .boxs {
+                width: 222px;
+                border-radius: 7px;
+                border: 1px solid rgb(188, 187, 187);
+                margin: 0 14px;
+                text-align: center;
+                position: absolute;
+
+                .imgs {
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        height: 130px;
+                        border-radius: 7px 7px 0 0;
+                    }
+
+                    img:hover {
+                        animation: an 1.5s infinite;
+                    }
+
+                    @keyframes an {
+                        from {
+                            opacity: 1;
+                        }
+
+                        50% {
+                            opacity: .4;
+                        }
+
+                        to {
+                            opacity: 1;
+                        }
+                    }
+
+                    span {
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                        border-radius: 0px 7px 0px 7px;
+                        background-color: red;
+                        color: white;
+                        width: 40px;
+                        height: 20px;
+                        text-align: center;
+                        font-size: 12px;
+                        line-height: 20px;
+                    }
+                }
+
+                h4 {
+                    margin: 8px 0;
+                    padding: 0 10px;
+                }
+
+                .bod {
+                    color: rgb(255, 25, 0);
+                    border: 1px solid rgb(255, 25, 0);
+                    border-radius: 5px;
+                    padding: 3px 8px;
+                    font-size: 12px;
+                    margin: 0 6px;
+                    transition: all .15s ease;
+                }
+
+                .bod:hover {
+                    background-color: rgb(255, 25, 0);
+                    color: white;
+                }
+
+                .sq {
+                    margin-top: 10px;
+
+                    span {
+                        color: red;
+                    }
+                }
+
+                .sy {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    color: red;
+                }
+            }
+
+            .b2 {
+                .imgs {
+                    position: relative;
+
+                    span {
+                        background-color: rgb(251, 244, 203);
+                        color: rgb(212, 176, 137);
+                        width: 80px;
+                    }
+                }
+
+                .bod {
+                    color: rgb(128, 194, 105);
+                    border: 1px solid rgb(128, 194, 105);
+                    transition: all .15s ease;
+                }
+
+                .bod:hover {
+                    background-color: rgb(128, 194, 105);
+                    color: white;
+                }
+
+                .sq {
+                    margin-top: 10px;
+                }
+
+                .sy {
+                    color: rgb(128, 194, 105);
+                }
+            }
+
+        }
+    }
+}
+
+
+// 报告精选
+
+#block2 {
+    .wrap {
+        .title {
+            margin: 10px 0 10px 300px;
+
+            a {
+                font-size: 14px;
+                margin-left: 810px;
+                color: red;
+                display: inline-block;
+                position: relative;
+
+                span {
+                    color: red;
+                    font-size: 22px;
+                    position: absolute;
+                }
+            }
+        }
+
+        #baogao {
+            width: @w;
+            margin: @ma;
+            padding-left: 30px;
+
+            .listJX {
+                float: left;
+                width: 222px;
+                height: 235px;
+                border: 1px solid rgb(226, 225, 225);
+                border-radius: 10px;
+                margin: 10px 20px 20px 10px;
+                background-color: white;
+
+                .info {
+                    position: relative;
+
+                    .right {
+                        position: absolute;
+                        top: 50px;
+                        left: 4px;
+
+                        #buutt {
+                            color: red;
+                        }
+
+                        .nick {
+                            font-size: 12px;
+                            color: rgb(172, 172, 172);
+                            float: left;
+                            margin: 3px 110px 0 10px;
+                        }
+
+                        .iconfont {
+                            color: rgb(179, 179, 179);
+                            font-size: 14px;
+                            border: none;
+                            background-color: white;
+                            display: inline-block;
+                        }
+
+                        .icon-zan:checked {
+                            color: red;
+                        }
+
+                        .zan,
+                        .look {
+                            font-size: 12px;
+                            color: rgb(179, 179, 179);
+                        }
+
+                    }
+
+
+
+                    .name {
+                        color: rgb(98, 97, 97);
+                        font-size: 13px;
+                        margin: 10px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                img {
+                    border-radius: 10px 10px 0 0;
+
+                }
+
+                img:hover {
+                    animation: an 1.5s infinite;
+                }
+
+                @keyframes an {
+                    from {
+                        opacity: 1;
+                    }
+
+                    50% {
+                        opacity: .4;
+                    }
+
+                    to {
+                        opacity: 1;
+                    }
+                }
+
+            }
+        }
+    }
+
+    width: 100%;
+    height: 600px;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+}
+
+
+// 导购精选
+#block3 {
+    width: 100%;
+    height: 340px;
+    background-color: white;
+    overflow: hidden;
+
+    .wrap {
+        .title {
+            margin: 10px 0 10px 300px;
+
+            a {
+                font-size: 14px;
+                margin-left: 810px;
+                color: red;
+                display: inline-block;
+                position: relative;
+
+                span {
+                    color: red;
+                    font-size: 22px;
+                    position: absolute;
+                }
+            }
+        }
+
+        #baogao {
+            width: @w;
+            margin: @ma;
+            padding-left: 30px;
+            position: relative;
+
+            .listJX {
+                width: 220px;
+                height: 235px;
+                border: 1px solid rgb(226, 225, 225);
+                border-radius: 10px;
+                margin: 10px 20px 20px 10px;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                z-index: 999;
+
+                .info {
+                    position: relative;
+
+                    #butt {
+                        color: red;
+                    }
+
+                    .tip {
+                        .right {
+                            position: absolute;
+                            top: 50px;
+                            left: 4px;
+
+                            .iconfont {
+                                color: rgb(179, 179, 179);
+                                font-size: 14px;
+                                border: none;
+                                background-color: white;
+                                display: inline-block;
+                            }
+
+                            .icon-icon_xihuan_mian {
+                                margin-left: 150px;
+                            }
+
+                            #but {
+                                color: red;
+                            }
+
+                            .xin,
+                            .look {
+                                font-size: 12px;
+                                color: rgb(179, 179, 179);
+                            }
+
+                        }
+                    }
+
+
+
+                    .name {
+                        color: rgb(98, 97, 97);
+                        font-size: 13px;
+                        margin: 10px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                img {
+                    border-radius: 10px 10px 0 0;
+
+                }
+
+                img:hover {
+                    animation: an 1.5s infinite;
+                }
+
+                @keyframes an {
+                    from {
+                        opacity: 1;
+                    }
+
+                    50% {
+                        opacity: .4;
+                    }
+
+                    to {
+                        opacity: 1;
+                    }
+                }
+
+
+            }
+
+            .box2 {
+                width: 195px;
+                height: 240px;
+                border: 1px solid rgb(226, 225, 225);
+                border-radius: 10px;
+                position: absolute;
+                z-index: 2;
+                background-color: white;
+            }
+
+            .listJX:nth-of-type(2) {
+                left: 286px;
+            }
+
+            .listJX:nth-of-type(3) {
+                left: 542px;
+            }
+
+            .listJX:nth-of-type(4) {
+                left: 795px;
+            }
+
+            .box2:nth-of-type(1) {
+                top: 10px;
+                left: 52px;
+            }
+
+            .box2:nth-of-type(3) {
+                top: 10px;
+                left: 309px;
+            }
+
+            .box2:nth-of-type(5) {
+                top: 10px;
+                left: 564px;
+            }
+
+            .box2:nth-of-type(7) {
+                top: 10px;
+                left: 819px;
+            }
+
+            .box31 {
+                .box3;
+                top: 10px;
+                left: 64px;
+            }
+
+            .box32 {
+                .box3;
+                top: 10px;
+                left: 320px;
+            }
+
+            .box33 {
+                .box3;
+                top: 10px;
+                left: 575px;
+            }
+
+            .box34 {
+                .box3;
+                top: 10px;
+                left: 828px;
+            }
+        }
+    }
+}
+
+.box3 {
+    width: 172px;
+    height: 245px;
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+// 发现酷玩
+#block4 {
+    .wrap {
+        .title {
+            margin: 10px 0 10px 300px;
+
+            a {
+                font-size: 14px;
+                margin-left: 810px;
+                color: red;
+                display: inline-block;
+                position: relative;
+
+                span {
+                    color: red;
+                    font-size: 22px;
+                    position: absolute;
+                }
+            }
+        }
+
+        #baogao {
+            width: @w;
+            margin: @ma;
+            padding-left: 30px;
+
+            .listJX {
+                float: left;
+                width: 222px;
+                height: 235px;
+                border: 1px solid rgb(226, 225, 225);
+                border-radius: 10px;
+                margin: 10px 20px 20px 10px;
+                background-color: white;
+
+                .info {
+                    position: relative;
+
+                    .tip {
+                        .price {
+                            font-size: 14px;
+                            color: red;
+                            position: absolute;
+                            top: 55px;
+                            left: 15px;
+                        }
+
+                        .right {
+                            position: absolute;
+                            top: 54px;
+                            left: 155px;
+
+                            .iconfont {
+                                color: rgb(179, 179, 179);
+                                font-size: 14px;
+                                border: none;
+                                background-color: white;
+                                display: inline-block;
+                            }
+
+                            .icon-zan:checked {
+                                color: red;
+                            }
+
+                            #but {
+                                color: red;
+                            }
+
+                            .xin,
+                            .look {
+                                font-size: 12px;
+                                color: rgb(179, 179, 179);
+                            }
+
+                        }
+
+                    }
+
+                    .name {
+                        color: rgb(98, 97, 97);
+                        font-size: 16px;
+                        margin: 10px;
+                        margin-bottom: 20px;
+
+                        span {
+                            display: block;
+                            font-size: 13px;
+                            color: rgb(174, 174, 174);
+                        }
+                    }
+                }
+
+                img {
+                    border-radius: 10px 10px 0 0;
+                    width: 221px;
+                }
+
+                img:hover {
+                    animation: an 1.5s infinite;
+                }
+
+                @keyframes an {
+                    from {
+                        opacity: 1;
+                    }
+
+                    50% {
+                        opacity: .4;
+                    }
+
+                    to {
+                        opacity: 1;
+                    }
+                }
+
+            }
+        }
+    }
+
+    width: 100%;
+    height: 850px;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+}
+
+
+
+
+
+// 下拉
+.xialala {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    padding: 15px 0;
+
+    .xiala {
+        margin: 0 733px;
+        color: red;
+
+        .iconfont {
+            padding-right: 5px;
+        }
+    }
+}
+
+// 尾部
+.foot {
+    width: 100%;
+    height: 360px;
+    background-color: rgb(80, 80, 80);
+
+    .q1 {
+        width: @w;
+        margin-left: 305px;
+
+        .copy {
+            margin: 70px 435px;
+            color: rgb(171, 167, 167);
+            font-size: 13px;
+        }
+
+        .f1 {
+            overflow: hidden;
+
+            .fdd {
+                padding-right: 30px;
+            }
+
+            .fd {
+                float: left;
+                width: 160px;
+
+                dt {
+                    color: white;
+                    margin: 30px 0 30px 0;
+                }
+
+                dd {
+                    font-size: 13px;
+                    color: rgb(171, 167, 167);
+                    width: 170px;
+                    height: 22px;
+
+                    a {
+                        font-size: 13px;
+                        color: rgb(171, 167, 167);
+                        transition: all .2s ease;
+                    }
+
+                    a:hover {
+                        color: white;
+                    }
+
+                }
+
+                .rrr {
+                    height: 40px;
+                }
+
+                .imgg {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+// 返回
+.bank {
+    position: fixed;
+    bottom: 60px;
+    right: 70px;
+    background-size: 100%;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(187, 187, 187);
+    box-sizing: border-box;
+    padding: 3px;
+}
