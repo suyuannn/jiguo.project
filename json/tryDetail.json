@@ -1,0 +1,46 @@
+[
+    {
+        "img": "http://localhost:3000/img/hot1.jpg",
+        "text": "巴慕达 The Toaster 烤面包机",
+        "uName": "苏亚",
+        "endTime": "2020-7-28",
+        "info_ty": "首发",
+        "totalnum": 2032,
+        "num": 20,
+        "apply": 1392,
+        "time": 2
+    },
+    {
+        "img": "http://localhost:3000/img/hot2.jpg",
+        "text": "Osprey小鹰户外运动专业腰包",
+        "uName": "苏亚",
+        "endTime": "2020-7-28",
+        "info_ty": "体验师专享",
+        "totalnum": 2032,
+        "num": 20,
+        "apply": 1392,
+        "time": 2
+    },
+    {
+        "img": "http://localhost:3000/img/hot3.jpg",
+        "text": "Liquid Image 338 运动摄像眼镜",
+        "uName": "苏亚",
+        "endTime": "2020-7-28",
+        "info_ty": "首发",
+        "totalnum": 2032,
+        "num": 20,
+        "apply": 1392,
+        "time": 4
+    },
+    {
+        "img": "http://localhost:3000/img/hot4.jpg",
+        "text": "巴慕达 The Toaster 烤面包机",
+        "uName": "苏亚",
+        "endTime": "2020-7-28",
+        "info_ty": "首发",
+        "totalnum": 2032,
+        "num": 20,
+        "apply": 1392,
+        "time": 3
+    }
+]

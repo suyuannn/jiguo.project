@@ -1,0 +1,359 @@
+/* 内容 */
+.content {
+  /* 试用流程选项卡 */
+  /* 热门试用 */
+}
+.content section {
+  width: 100%;
+  background: #f0f0f0;
+}
+.content section ul {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100px;
+}
+.content section ul li {
+  float: left;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 17px;
+  text-align: center;
+}
+.content section ul li::before {
+  display: block;
+  background: url(../images/use1.png) no-repeat center top;
+  content: '';
+  width: 100%;
+  height: 43px;
+}
+.content section ul li:first-of-type {
+  width: 62px;
+}
+.content section ul li:first-of-type::before {
+  height: 0;
+  background: none;
+}
+.content section ul li:nth-of-type(3)::before {
+  background: url(../images/use2.png) no-repeat center top;
+}
+.content section ul li:nth-of-type(4)::before {
+  background: url(../images/use3.png) no-repeat center top;
+}
+.content section ul li:nth-of-type(5)::before {
+  background: url(../images/use4.png) no-repeat center top;
+}
+.content section ul li:nth-of-type(6)::before {
+  background: url(../images/use5.png) no-repeat center top;
+}
+.content section ul li:hover {
+  cursor: pointer;
+}
+.content section ul li:hover > a {
+  border-bottom: 2px solid #FE5341;
+}
+.content section ul li .largeFont {
+  line-height: 27px;
+  width: 54px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.content section ul li a {
+  display: block;
+  line-height: normal;
+  margin: 0 auto;
+  width: 48px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.content section ul li .smallFont {
+  border-bottom: 2px solid #FE5341;
+}
+.content section .all {
+  border-left: 8px solid #FE5341;
+}
+.content .con {
+  width: 1000px;
+  margin: 0 auto;
+  /* con左侧 */
+  /* con右侧 */
+}
+.content .con .conleft {
+  /* 产品介绍 */
+  /* 活动介绍 */
+  /* 活动时间 */
+}
+.content .con .conleft .proIntro,
+.content .con .conleft .activity,
+.content .con .conleft .activityTime {
+  width: 650px;
+}
+.content .con .conleft .proIntro .proIntroTitle p,
+.content .con .conleft .activity .proIntroTitle p,
+.content .con .conleft .activityTime .proIntroTitle p {
+  font-size: 18px;
+  color: #222222;
+  border-left: 8px solid #FE5341;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.content .con .conleft .proIntro .article,
+.content .con .conleft .activity .article,
+.content .con .conleft .activityTime .article {
+  font-size: 18px;
+  color: #ff0f00;
+  font-weight: bold;
+}
+.content .con .conleft .proIntro .essay,
+.content .con .conleft .activity .essay,
+.content .con .conleft .activityTime .essay {
+  width: 650px;
+  font-size: 14px;
+  line-height: 25px;
+}
+.content .con .conleft .proIntro .smallTitle,
+.content .con .conleft .activity .smallTitle,
+.content .con .conleft .activityTime .smallTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0070c0;
+}
+.content .con .conleft .proIntro .lakeBule,
+.content .con .conleft .activity .lakeBule,
+.content .con .conleft .activityTime .lakeBule {
+  margin: 25px 0px;
+  color: #0177A7;
+}
+.content .con .conleft .proIntro ul li,
+.content .con .conleft .activity ul li,
+.content .con .conleft .activityTime ul li {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.content .con .conleft .proIntro ul li span,
+.content .con .conleft .activity ul li span,
+.content .con .conleft .activityTime ul li span {
+  font-weight: bold;
+}
+.content .con .conleft .proIntro .actFlow,
+.content .con .conleft .activity .actFlow,
+.content .con .conleft .activityTime .actFlow {
+  font-weight: bold;
+  color: #FE5341;
+}
+.content .con .conright {
+  /* 购买渠道 */
+  /* 极果体验师 */
+  /* 关注我们 */
+}
+.content .con .conright .purchase,
+.content .con .conright .experience,
+.content .con .conright .addendOur {
+  width: 300px;
+}
+.content .con .conright .purchase .purchaseTitle p,
+.content .con .conright .experience .purchaseTitle p,
+.content .con .conright .addendOur .purchaseTitle p {
+  font-size: 18px;
+  color: #222222;
+  border-left: 8px solid #FE5341;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.content .con .conright .purchase .price,
+.content .con .conright .experience .price,
+.content .con .conright .addendOur .price {
+  font-size: 40px;
+  color: #FE5341;
+}
+.content .con .conright .purchase .a1,
+.content .con .conright .experience .a1,
+.content .con .conright .addendOur .a1 {
+  display: block;
+  width: 270px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: #FE5341;
+  color: #fff;
+}
+.content .con .conright .purchase .a1:hover,
+.content .con .conright .experience .a1:hover,
+.content .con .conright .addendOur .a1:hover {
+  cursor: pointer;
+  background-color: #e44b3a;
+}
+.content .con .conright .purchase .a2,
+.content .con .conright .experience .a2,
+.content .con .conright .addendOur .a2 {
+  display: block;
+  width: 270px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+.content .con .conright .purchase .a2:hover,
+.content .con .conright .experience .a2:hover,
+.content .con .conright .addendOur .a2:hover {
+  cursor: pointer;
+  color: #FE5341;
+}
+.content .con .conright .purchase .experienceTitle,
+.content .con .conright .experience .experienceTitle,
+.content .con .conright .addendOur .experienceTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #474747;
+}
+.content .con .conright .purchase .experienceEssay,
+.content .con .conright .experience .experienceEssay,
+.content .con .conright .addendOur .experienceEssay {
+  color: #a3a3a3;
+  font-size: 14px;
+}
+.content .hotTry {
+  width: 1000px;
+  margin: 45px auto 30px;
+}
+.content .hotTry .hotTryTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
+}
+.content .hotTry .hotTryTitle .more {
+  display: block;
+  position: relative;
+  padding: 3px 20px 2px 2px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fd6959;
+  background: url(../images/readMore.png) no-repeat 62px 8px;
+}
+.content .hotTry .tableBox3 {
+  width: 100%;
+}
+.content .hotTry .tableBox3 > li {
+  /* 公共ul */
+}
+.content .hotTry .tableBox3 > li ul {
+  width: 1000px;
+  margin: 0 auto;
+}
+.content .hotTry .tableBox3 > li ul li {
+  width: 220px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  float: left;
+  margin-top: 25px;
+  margin-right: 35px;
+  border: 1px solid #e6e9e9;
+}
+.content .hotTry .tableBox3 > li ul li:nth-child(4n) {
+  margin-right: 0px;
+}
+.content .hotTry .tableBox3 > li ul li:hover {
+  cursor: pointer;
+}
+.content .hotTry .tableBox3 > li ul li:hover .tableBox3pic > i {
+  animation: move 0.7s ease infinite alternate;
+  display: block;
+}
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.content .hotTry .tableBox3 > li ul li .tableBox3pic {
+  position: relative;
+}
+.content .hotTry .tableBox3 > li ul li .tableBox3pic i {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 220px;
+  height: 130px;
+  background-color: rgba(247, 247, 247, 0.3);
+}
+.content .hotTry .tableBox3 > li ul li .tableBox3pic span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  padding: 2px 8px;
+  font-size: 12px;
+  color: #fff;
+  background: #ff5544;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.content .hotTry .tableBox3 > li ul li .tableBox3pic .spanActive {
+  background: #fbf4cb;
+  color: #c4a96a;
+}
+.content .hotTry .tableBox3 > li ul li .tableBox3pic a {
+  display: inline-block;
+  width: 220px;
+  height: 130px;
+}
+.content .hotTry .tableBox3 > li ul li .tableBox3pic a img {
+  width: 100%;
+  height: 100%;
+}
+.content .hotTry .tableBox3 > li ul li .tableBox3Title {
+  width: 100%;
+  margin: 5px auto 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  /* 文本不会换行，在同一行继续 */
+  white-space: nowrap;
+  /* 溢出隐藏 */
+  overflow: hidden;
+  /* 用省略号来代表被修剪的文本 */
+  text-overflow: ellipsis;
+}
+.content .hotTry .tableBox3 > li ul li .btnBox {
+  margin: 0 auto;
+  width: 135px;
+}
+.content .hotTry .tableBox3 > li ul li .btnBox .btnBox1 {
+  display: inline-block;
+  width: 50px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  font-size: 12px;
+  color: #a3a3a3;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+}
+.content .hotTry .tableBox3 > li ul li .apply {
+  font-size: 14px;
+  color: #fe5341;
+  text-align: center;
+}
+.content .hotTry .tableBox3 > li ul li .reportNum {
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.content .hotTry .tableBox3 > li ul li .reportNum .reportNum1 {
+  margin-left: -27px;
+  color: #a3a3a3;
+}
+.content .hotTry .tableBox3 > li ul li .reportNum span {
+  color: #867a7a;
+}
