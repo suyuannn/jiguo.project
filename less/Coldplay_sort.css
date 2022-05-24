@@ -1,0 +1,189 @@
+/* 酷玩-品类 */
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 75px;
+}
+.header .header_img {
+  float: left;
+  margin-top: 13px;
+  margin-left: 270px;
+  padding-right: 30px;
+}
+.header .list > li {
+  float: left;
+  margin-left: 45px;
+  font-size: 20px;
+  list-style: none;
+  margin-top: 30px;
+}
+.header .list > li > a {
+  text-decoration: none;
+  color: black;
+}
+.header .header_right {
+  float: left;
+  margin-top: 30px;
+  margin-left: 318px;
+  list-style: none;
+}
+.header .header_right > a {
+  text-decoration: none;
+  background: url(../images/search.png) no-repeat 1px 1px;
+}
+.h1 {
+  width: 1000px;
+  height: 173px;
+  margin: 0 auto;
+}
+.h1 > h1 {
+  text-align: center;
+  padding: 34px 0 42px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.h1 .classify {
+  padding-left: 238px;
+  font-size: 0;
+}
+.h1 .classify .red {
+  color: red;
+  border-bottom: 4px solid red;
+}
+.h1 .classify > a {
+  color: #666;
+  text-decoration: none;
+  padding: 0px 70px;
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+.back {
+  width: 100%;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.back .type_area {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.back .type_area > ul > li {
+  list-style: none;
+  border: 1px solid #ebecec;
+  border-radius: 8px;
+}
+.back .type_area ul {
+  overflow: hidden;
+}
+.back .type_area ul li {
+  background-color: #FFFFFF;
+}
+.back .type_area ul li dl dt {
+  width: 97%;
+  height: 30px;
+  padding-left: 28px;
+  margin-top: 20px;
+  position: relative;
+}
+.back .type_area ul li dl dt span {
+  width: 5px;
+  height: 30px;
+  background-color: red;
+  display: block;
+  position: absolute;
+  left: 1px;
+  top: -6px;
+}
+.back .type_area ul li dl dd {
+  width: 100%;
+}
+.back .type_area ul li dl dd div {
+  width: 132px;
+  margin-left: 27px;
+  margin-top: 20px;
+  float: left;
+}
+.back .type_area ul li dl dd div > a:hover {
+  color: red;
+}
+.back .type_area ul li dl dd div a {
+  text-decoration: none;
+  color: #A3A3A3;
+  font-size: 14px;
+}
+.back .type_area ul li dl dd div a p {
+  padding-top: 12px;
+  font-size: 14px;
+}
+.back .type_area ul li dl > dd:nth-of-type(1) {
+  height: 330px;
+  border-bottom: 1px dashed #A3A3A3;
+}
+.back .type_area ul li dl > dd:nth-of-type(2) .list {
+  width: 100%;
+  height: 134px;
+}
+.back .type_area ul li dl > dd:nth-of-type(2) .list li {
+  list-style: none;
+  float: left;
+  padding-left: 25px;
+  padding-top: 15px;
+  width: 140px;
+  height: 20px;
+}
+.back .type_area ul li dl > dd:nth-of-type(2) .list li > a:hover {
+  color: red;
+}
+.back .type_area ul li dl > dd:nth-of-type(2) .list li a {
+  text-decoration: none;
+  color: #A3A3A3;
+  font-size: 14px;
+}
+.back .type_area ul > li:nth-of-type(2) dl > dd:nth-of-type(1) {
+  height: 178px;
+}
+.back .type_area ul > li:nth-of-type(2) dl > dd:nth-of-type(2) ul {
+  height: 60px;
+}
+.back .type_area ul > li:nth-of-type(3) dl > dd:nth-of-type(1) {
+  height: 178px;
+}
+.back .type_area ul > li:nth-of-type(3) dl > dd:nth-of-type(2) ul {
+  height: 60px;
+}
+.back .type_area ul > li:nth-of-type(4) dl > dd:nth-of-type(1) {
+  height: 178px;
+}
+.back .type_area ul > li:nth-of-type(4) dl > dd:nth-of-type(2) ul {
+  height: 60px;
+}
+.back .type_area ul > li:nth-of-type(5) dl > dd:nth-of-type(1) {
+  height: 178px;
+}
+.back .type_area ul > li:nth-of-type(5) dl > dd:nth-of-type(2) ul {
+  height: 60px;
+}
+.back .type_area ul > li:nth-of-type(6) dl > dd:nth-of-type(1) {
+  height: 178px;
+}
+.back .type_area ul > li:nth-of-type(6) dl > dd:nth-of-type(2) ul {
+  height: 60px;
+}
+.back .type_area ul > li:nth-of-type(7) dl > dd:nth-of-type(1) {
+  height: 178px;
+}
+.back .type_area ul > li:nth-of-type(7) dl > dd:nth-of-type(2) ul {
+  height: 60px;
+}
+.back .type_area ul > li:nth-of-type(8) dl > dd:nth-of-type(1) {
+  height: 178px;
+}
+.back .type_area ul > li:nth-of-type(8) dl > dd:nth-of-type(2) ul {
+  height: 60px;
+}
+.a_list > li {
+  margin-top: 30px;
+}
